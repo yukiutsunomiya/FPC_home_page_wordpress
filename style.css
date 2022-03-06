@@ -1,0 +1,340 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/scss/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+  @charset "UTF-8";
+
+  /*
+  Theme Name: FPC home page
+  Theme URI: https://example.com
+  Author: yukiutsunomiya
+  Author URI: https://example.com
+  Description: FPCのホームページです。
+  Version: 1.0
+  */
+
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .navbar{
+    background-color:#142656;
+    padding:0 120px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    /* 959px以下に適用されるCSS（タブレット用）*/
+    .navbar{
+      padding: 0;
+    }
+  }
+
+
+  .facebook-botton{
+    background-color: #142656;
+    color:white;
+    opacity: 0.9;
+  }
+
+  .facebook-botton:hover{
+    color:white;
+    opacity: 1;
+  }
+
+ .navbar-toggler{
+    border-color: white;
+  }
+
+  .dropdown-toggle:after { 
+    content: none; 
+  }
+
+  .navrow{
+    padding: 5px 0;
+  }
+
+  .nav-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .navbar-brand{
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+  }
+
+  .overview-wrap{
+    margin-top: 30px;
+  }
+
+  .overview{
+    background-color: #142656;
+    height:auto;
+    padding: 15px;
+  }
+
+  .overview > h3{
+    font-family: "YuMincho", "Yu Mincho Medium", "Yu Mincho", yu-mincho-pr6, Verdana, Meiryo, sans-serif;
+  }
+
+  .overview > p{
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .overview-a{
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+  }
+
+  .overview-a:hover{
+    opacity: 1;
+    color: white;
+  }
+  
+  .img-top{
+    height: 60px;
+  }
+
+  .img-icon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .img-book{
+    width: 100px;
+    height: 130px;
+  }
+  
+  .card-img-top{
+    height: 400px;
+    width:300px;
+    display: inline-block;
+  }
+
+  .card-img-top1{
+    height: 400px;
+    width:280px;
+    display: inline-block;
+  }
+
+
+  .card-img-top2{
+    height: 400px;
+    width:270px;
+    display: inline-block;
+  }
+
+  .card-img-top3{
+    height: 400px;
+    width:240px;
+    display: inline-block;
+  }
+
+  .book-p{
+    line-height: 0rem;
+  }
+
+  multi-carousel {
+    opacity: 0;
+    padding: 0 25px;
+  }
+  .multi-carousel .carousel-control-next,
+  .multi-carousel .carousel-control-prev {
+    width: 25px;
+    background: gray;    
+  }
+
+  .dropdown:hover>.dropdown-menu{
+		display: block;
+	}
+
+  .update-information-h3{
+    margin-top: 30px;
+  }
+
+  .update-information-h3 > a{
+    color: #142656;
+  }
+
+  .s-title {
+    position: relative;
+    margin: 30px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #142656;
+    color: #142656;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "YuMincho", "Yu Mincho Medium", "Yu Mincho", yu-mincho-pr6, Verdana, Meiryo, sans-serif;
+    letter-spacing: -0.7px;
+  }
+  
+  .s-title::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 6px;
+    background-color: #142656;
+    content: "";
+  }
+
+  .news .s-title {
+    margin: 0 0 40px 0;
+  }
+  
+  .news .s-title::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 157px;
+    height: 6px;
+    background-color: #142656;
+    content: "";
+  }
+
+  .update-information-tr{
+    border-top:1px solid black;
+  }
+
+  .last-update-information-tr{
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .contents-prev-next{
+    display: none;
+  }
+  
+  footer {
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 70px 30px 50px;
+    background-color: #142656;
+    
+  }
+  
+
+  /*overview*/
+  .chairman-img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .overview-img{
+    width: 320px;
+    height: 320px;
+  }
+  
+  .organization-table{
+    width: 1100px;
+    height:100%;
+    
+  }
+
+  .lecture-img{
+    width: 500px;
+    height: 500px;
+  }
+
+  .card{
+    height: 600px;
+  }
+
+  .card-writings{
+    height: 200px;
+  }
+
+  .commentary-card{
+    height: 550px;
+  }
+  .commentary-card-body{
+    height: 115px;
+  }
+
+  .research-activities{
+    background-color:#142656;
+    color:white;
+  }
+
+  .event-img{
+    width: 400px;
+    height: 400px;
+  }
+
+  /*------------------------------------------------------------*/
+/* 実行などボタン周り */
+/*------------------------------------------------------------*/
+.regist_button{
+  margin: 1.5em 0 0 0;
+  padding: 2em;
+  border: 1px solid #90847b;
+  background-color: #edebe3;
+  text-align: center;
+}
+
+/*------------------------------------------------------------*/
+/* フォームラベル */
+/*------------------------------------------------------------*/
+section.container label.head{
+  margin-top: 1em;
+  padding: 0.8em 0;
+  border-left: 5px solid #3399ff;
+  background-color: #e8f5ff;
+  text-align: left;
+  font-size: 90%;
+  font-weight: normal;
+}
+
+fieldset{
+  width: 500px;
+}
+
+.director-card{
+  height: 470px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+
+.carousel-img{
+  height: 400px;
+}
+
+/*wordpress */
+
+/* Contact Form7 */
+
+.contact7 {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.contact7 dd {
+	margin: 0 0 30px 0;
+
+}
+
+.contact7 dt {
+	font-weight: normal;
+}
+
+/* 必須マーク */
+
+
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./src/scss/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+
+
